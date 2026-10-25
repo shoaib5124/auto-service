@@ -15,7 +15,7 @@ export function Navbar() {
         >
           <Logo />
           <span className="text-base font-bold tracking-tight text-[#222222] sm:text-lg">
-            Borsig Car Service
+            Auto Srvice Jannis
           </span>
         </a>
 

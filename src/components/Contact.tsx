@@ -6,14 +6,15 @@ const focusRing =
 
 // Verify that this points to the exact business listing.
 const MAP_SRC =
-  "https://maps.google.com/maps?q=Borsig%20Car%20Service%2C%20Oesterm%C3%A4rsch%2043%2C%2044145%20Dortmund%2C%20Germany&z=15&output=embed";
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.5752609921974!2d7.478834975856218!3d51.52100790971008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b9175ecbaafdd1%3A0x51ce262363854c2c!2sAuto%20Service%20Jannis!5e0!3m2!1sen!2s!4v1792908399451!5m2!1sen!2s";
+ 
 
 // Shows the number exactly as stored in PHONE_HREF, without the "tel:" prefix.
 const phoneDisplay = PHONE_HREF.replace(/^tel:/i, "");
 
 const openingHours = [
-  { days: "Montag–Freitag", hours: "09:00–18:00" },
-  { days: "Samstag", hours: "09:00–16:00" },
+  { days: "Montag–Freitag", hours: "10 AM–6 PM" },
+  { days: "Samstag", hours: "10 AM–3 PM" },
   { days: "Sonntag", hours: "Geschlossen" },
 ];
 
@@ -45,11 +46,11 @@ export function Contact() {
                   Adresse
                 </h3>
                 <address className="mt-2 text-base not-italic leading-relaxed text-neutral-700">
-                  Borsig Car Service
+                  Auto Serice Jannis
                   <br />
-                  Oestermärsch 43
+                  Osterlandwehr 7
                   <br />
-                  44145 Dortmund-Innenstadt-Nord
+                   44145 Dortmund-Innenstadt-Nord
                   <br />
                   Germany
                 </address>

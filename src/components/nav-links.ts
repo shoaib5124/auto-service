@@ -1,4 +1,4 @@
-export const PHONE_HREF = "tel:+4915732384578";
+export const PHONE_HREF = "tel:+491741915669";
 
 export const navLinks = [
   { href: "#leistungen", label: "Leistungen" },

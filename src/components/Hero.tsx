@@ -45,14 +45,14 @@ export function Hero() {
 {/* Compact address and opening hours */}
 <div className="mt-5 space-y-2 text-sm text-neutral-600">
   <a
-    href="https://www.google.com/maps/search/?api=1&query=Borsig%20Car%20Service%2C%20Oesterm%C3%A4rsch%2043%2C%2044145%20Dortmund%2C%20Germany"
+    href="https://www.google.com/maps/search/?api=1&query=Auto%20Service%20Jannis"
     target="_blank"
     rel="noopener noreferrer"
     className={`flex items-start gap-2 hover:text-[#D62828] ${focusRing}`}
   >
     <span aria-hidden="true">📍</span>
     <span>
-      Oestermärsch 43, 44145 Dortmund-Innenstadt-Nord
+      Osterlandwehr 7, 44145 Dortmund-Innenstadt-Nord, Germany
       <span className="ml-1 text-[#D62828]">↗</span>
     </span>
   </a>
@@ -60,9 +60,9 @@ export function Hero() {
   <p className="flex items-start gap-2">
     <span aria-hidden="true">🕒</span>
     <span>
-      <span className="font-medium text-[#222222]">Mo–Fr:</span> 09:00–18:00
+      <span className="font-medium text-[#222222]">Mo–Fr:</span> 10 AM–6 PM
       <span className="mx-2">·</span>
-      <span className="font-medium text-[#222222]">Sa:</span> 09:00–16:00
+      <span className="font-medium text-[#222222]">Sa:</span> 10 AM–3 PM
       <span className="mx-2">·</span>
       <span className="font-medium text-[#222222]">So:</span> Geschlossen
     </span>
